@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(11, 32, 17);
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    height: 100vh;           /* Altura total da tela */
+    font-family: Arial, sans-serif; 
+}
+
+div.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;    /* Bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sombra suave */
+    display: flex;
+    flex-direction: column; /* Coloca um item embaixo do outro */
+    width: 300px;           /* Largura fixa da caixa */
+    gap: 15px;
+}
+
+input, button {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input, h6 {
+    margin: 2px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor muda ao passar o mouse */
+}
