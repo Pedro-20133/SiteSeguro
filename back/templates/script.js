@@ -1,5 +1,5 @@
 document.getElementById("btnLv1").addEventListener("click", function() {
-    window.location.href = "./n1/index.html";
+    window.location.href = "/n1/";
 });
 
 document.getElementById("btnLv2").addEventListener("click", function() {
